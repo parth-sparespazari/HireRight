@@ -21,19 +21,19 @@ export default function Navbar() {
             <Link
                 key={href}
                 href={href}
-                className={`relative overflow-hidden font-hanken rounded-xl px-5 py-3 text-md font-medium transition hover:bg-[#6567E2] hover:text-white
+                className={`relative overflow-hidden font-hanken rounded-xl px-5 py-3 text-md font-medium transition hover:bg-indigo-400 hover:text-white
                     ${isActive ? "bg-indigo-500 text-white" : "text-gray-600"}
                 `}
                 >
                     <span
-          className="
-            absolute -left-6 bottom-0 w-40 h-20
-            bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.5),transparent_70%)]
-            opacity-0 active:opacity-100
-            transition-opacity duration-200
-            rounded-full
-          "
-        />
+                      className="
+                        absolute -left-6 bottom-0 w-40 h-20
+                        bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.5),transparent_70%)]
+                        opacity-0 active:opacity-100
+                        transition-opacity duration-200
+                        rounded-full
+                      "
+                    />
                     {label}
             </Link>
         );
