@@ -1,9 +1,13 @@
-// import Image from "next/image";
+import HeroSection from "@/app/components/sections/HeroSection";
+import WhyHireRight from "@/app/components/sections/WhyHireRight";
+import HireTalents from "@/app/components/sections/HireTalents";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center gap-4">
-      
-    </div>
+    <>
+      <HeroSection />
+      <WhyHireRight />
+      <HireTalents />
+    </>
   );
 }

@@ -3,7 +3,7 @@ import Navbar from "./Navbar"; // This will be client
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-between px-8 py-4">
+    <header className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Image src="/Web_icon.svg" alt="Logo" width={138} height={28} priority />
         <Navbar />
     </header>
