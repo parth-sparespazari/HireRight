@@ -10,7 +10,7 @@ export default function HireTalents() {
                     </h2>
                     <p className="font-normal text-[24px] leading-[116%] tracking-[-0.02em] text-[#231A16A3]">Transform your recruitment with AI companions that conduct natural, <br /> mentor-like interviews while giving you complete cost control.</p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-5 gap-6 items-center">
                     <div className="flex flex-col gap-y-10 md:col-span-2">
                         <div className="flex flex-col gap-y-3">
                             <h4 className="font-dm-serif font-normal text-[24px] leading-[140%] tracking-[0em] text-[#343330]">Interview Management</h4>
