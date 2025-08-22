@@ -13,7 +13,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="flex items-center gap-4">
+    <nav className="flex items-center gap-3">
       {links.map(({ href, label }) => {
         const isActive = pathname === href;
 
@@ -21,8 +21,8 @@ export default function Navbar() {
             <Link
                 key={href}
                 href={href}
-                className={`relative overflow-hidden font-hanken rounded-xl px-5 py-3 text-md font-medium transition hover:bg-indigo-400 hover:text-white
-                    ${isActive ? "bg-indigo-500 text-white" : "text-gray-600"}
+                className={`relative overflow-hidden font-hanken rounded-[1em] px-6 py-4 text-md font-medium transition-all duration-300 ease-in-out hover:bg-[#7173e4] hover:text-white active:rounded-[0.7em]
+                    ${isActive ? "bg-[#6567e2] text-white" : "text-gray-600"}
                 `}
                 >
                   {label}

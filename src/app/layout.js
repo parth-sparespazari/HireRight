@@ -2,6 +2,7 @@ import { DM_Serif_Text, Hanken_Grotesk } from "next/font/google";
 import "./globals.css";
 
 import Header from "./components/layout/Header";
+import Footer from "./components/layout/Footer";
 
 const dmSerif = DM_Serif_Text({
   subsets: ["latin"],
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

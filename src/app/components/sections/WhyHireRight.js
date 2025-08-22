@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function WhyHireRight() {
     return (
-        <section className="py-40 font-hanken bg-[#FFF8E8]">
+        <section className="py-30 font-hanken bg-[#FFF8E8]">
             <div className="container mx-auto flex flex-col items-center gap-y-25">
                 <Image src="/icons/Logo-icon1.svg" alt="Logo" width={134} height={140} priority />
                 <h2 className="font-dm-serif font-normal italic text-[40px] leading-[100%] tracking-[-0.02em] text-center">Why HireRight?</h2>

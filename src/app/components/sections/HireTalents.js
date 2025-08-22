@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HireTalents() {
     return (
-        <section className="py-40 font-hanken bg-gradient-to-b from-[#FFF8E8] to-white">
+        <section className="py-30 font-hanken bg-gradient-to-b from-[#FFF8E8] to-white">
             <div className="container mx-auto flex flex-col gap-y-15">
                 <div className="flex flex-col gap-y-5">
                     <h2 className="font-dm-serif font-normal text-[64px] leading-[140%] tracking-[-0.01em]">
