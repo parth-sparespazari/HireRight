@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function CoreValues() {
     return (
-        <section className="py-30 font-hanken">
-            <div className="container mx-auto max-w-[1184] flex flex-col items-center gap-y-5">
-                <h2 className="font-dm-serif font-normal text-[64px] leading-[130%] tracking-[-0.01em] text-center text-[#343330]">Our Core Value</h2>
-                <p className="font-normal text-[24px] leading-[116%] tracking-[-0.02em] text-center align-middle text-[#231A16A3]">Lorem ipsum dolor sit amet consectetur. Auctor dapibus tristique augue congue tristique.</p>
+        <section className="py-15 md:py-20 xl:py-30 font-hanken">
+            <div className="container mx-auto px-4 max-w-[1184] flex flex-col items-center gap-y-5">
+                <h2 className="font-dm-serif font-normal text-[32px] md:text-[48px] xl:text-[64px] leading-[130%] tracking-[-0.01em] text-center text-[#343330]">Our Core Value</h2>
+                <p className="font-normal text-[14px] md:text-[18px] xl:text-[24px] leading-[116%] tracking-[-0.02em] text-center align-middle text-[#231A16A3]">Lorem ipsum dolor sit amet consectetur. Auctor dapibus tristique augue congue tristique.</p>
                 <div className="flex flex-wrap w-full items-center justify-between gap-x-2 mt-10">
                     <input type="radio" id="tab1" name="tab" className="hidden peer/tab1" defaultChecked />
                     <label
@@ -18,7 +18,7 @@ export default function CoreValues() {
                     <input type="radio" id="tab2" name="tab" className="hidden peer/tab2" />
                     <label
                         htmlFor="tab2"
-                        className="cursor-pointer font-medium text-2xl leading-[1.2] tracking-normal align-middle py-6 rounded-[0.7em] text-[#370D00] text-center grow transition-all duration-300 ease-in-out bg-[#FFDBCECC] hover:bg-[#f1d5ce] hover:rounded-[1em] peer-checked/tab2:bg-[#71361d] peer-checked/tab2:text-white peer-checked/tab2:rounded-[2em] peer-checked/tab2:hover:rounded-[2em] peer-checked/tab2:hover:bg-[#6f687c]"
+                        className="cursor-pointer font-medium text-2xl leading-[1.2] tracking-normal align-middle py-6 rounded-[0.7em] text-[#370D00] text-center grow transition-all duration-300 ease-in-out bg-[#FFDBCECC] hover:bg-[#f1d5ce] hover:rounded-[0.7em] md:rounded-[1em] peer-checked/tab2:bg-[#71361d] peer-checked/tab2:text-white peer-checked/tab2:rounded-[2em] peer-checked/tab2:hover:rounded-[2em] peer-checked/tab2:hover:bg-[#6f687c]"
                     >
                         Intuitive to use
                     </label>

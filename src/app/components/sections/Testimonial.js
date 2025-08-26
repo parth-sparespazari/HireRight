@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Testimonial() {
     return (
-        <section className="relative py-30 font-hanken">
+        <section className="relative py-15 md:py-20 xl:py-30 font-hanken">
             <div className="absolute inset-0 flex justify-center items-center z-0 top-20">
                 <Image src="/icons/testimonial_bg.svg"
                     alt="Hire talent"
@@ -11,7 +11,7 @@ export default function Testimonial() {
                     sizes="(max-width: 1024px) 100vw, 1034px"
                 />
             </div>
-            <div className="relative z-10 container mx-auto flex flex-col items-center gap-y-5">
+            <div className="relative z-10 container mx-auto px-4 flex flex-col items-center gap-y-5">
                 <h2 className="font-dm-serif font-normal text-[64px] leading-[130%] tracking-[-0.01em] text-center text-[#343330]">Testimonial</h2>
                 <p className="font-normal text-[24px] leading-[116%] tracking-[-0.02em] text-center align-middle text-[#231A16A3]">Lorem ipsum dolor sit amet consectetur. Auctor dapibus tristique augue congue tristique.</p>
                 
