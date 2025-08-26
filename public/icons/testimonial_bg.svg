@@ -1,0 +1,24 @@
+<svg width="1034" height="941" viewBox="0 0 1034 941" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="517" cy="424" r="294" transform="rotate(46.6361 517 424)" stroke="url(#paint0_linear_5_67)" stroke-width="4"/>
+<circle cx="517" cy="424" r="515" stroke="url(#paint1_linear_5_67)" stroke-width="4"/>
+<circle cx="517" cy="424" r="128" transform="rotate(-41.1974 517 424)" stroke="url(#paint2_linear_5_67)" stroke-width="4"/>
+<circle cx="56" cy="56" r="54" transform="matrix(0.8921 -0.451838 -0.451838 -0.8921 492.345 499.261)" stroke="url(#paint3_linear_5_67)" stroke-width="4"/>
+<defs>
+<linearGradient id="paint0_linear_5_67" x1="517" y1="249.372" x2="517" y2="720" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FEEEE2" stop-opacity="0"/>
+<stop offset="1" stop-color="#FEEEE2"/>
+</linearGradient>
+<linearGradient id="paint1_linear_5_67" x1="517" y1="118.992" x2="517" y2="941" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FEEEE2" stop-opacity="0"/>
+<stop offset="1" stop-color="#FEEEE2"/>
+</linearGradient>
+<linearGradient id="paint2_linear_5_67" x1="517" y1="347.306" x2="517" y2="554" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FEEEE2" stop-opacity="0"/>
+<stop offset="1" stop-color="#FEEEE2"/>
+</linearGradient>
+<linearGradient id="paint3_linear_5_67" x1="56" y1="22.9623" x2="56" y2="112" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FEEEE2" stop-opacity="0"/>
+<stop offset="1" stop-color="#FEEEE2"/>
+</linearGradient>
+</defs>
+</svg>

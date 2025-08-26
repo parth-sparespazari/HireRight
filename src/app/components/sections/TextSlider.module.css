@@ -1,0 +1,23 @@
+.slider {
+  display: flex;
+  flex-direction: column;
+  animation: slideDown 8s infinite;
+}
+
+@keyframes slideDown {
+  0%, 20% {
+    transform: translateY(0);
+  }
+  25%, 45% {
+    transform: translateY(110px);
+  }
+  50%, 70% {
+    transform: translateY(220px);
+  }
+  75%, 95% {
+    transform: translateY(330px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
