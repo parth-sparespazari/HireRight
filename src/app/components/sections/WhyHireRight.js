@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function WhyHireRight() {
     return (
         <section className="py-15 md:py-20 xl:py-30 font-hanken bg-[#FFF8E8]">
-            <div className="container mx-auto px-4 flex flex-col items-center gap-y-15 md:gap-y-20 xl:gap-y-25">
-                <Image src="/icons/Logo-icon1.svg" alt="Logo" width={134} height={140} priority />
+            <div className="container mx-auto px-5 flex flex-col items-center gap-y-15 md:gap-y-20 xl:gap-y-25">
+                <Image src="/icons/Logo-icon1.svg" alt="Logo" width={134} height={140} priority sizes="(max-width: 768px) 86px, 134px" />
                 <h2 className="font-dm-serif font-normal italic text-[40px] leading-[100%] tracking-[-0.02em] text-center">Why HireRight?</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <div className="flex flex-col gap-y-3 md:gap-y-4 xl:gap-y-6">
