@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function CoreValues() {
     return (
         <section className="py-15 md:py-20 xl:py-30 font-hanken">
-            <div className="container mx-auto px-5 max-w-[1184] flex flex-col items-center gap-y-5">
+            <div className="container mx-auto px-4 sm:px-5 max-w-[1184] flex flex-col items-center gap-y-5">
                 <h2 className="font-dm-serif font-normal text-[32px] md:text-[48px] xl:text-[64px] leading-[130%] tracking-[-0.01em] text-center text-[#343330]">Our Core Value</h2>
                 <p className="font-normal text-[14px] md:text-[18px] xl:text-[24px] leading-[116%] tracking-[-0.02em] text-center align-middle text-[#231A16A3]">Lorem ipsum dolor sit amet consectetur. Auctor dapibus tristique augue congue tristique.</p>
                 <div className="flex flex-wrap w-full items-center justify-between gap-x-2 mt-10">

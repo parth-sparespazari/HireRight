@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function HireTalents() {
     return (
         <section className="py-15 md:py-20 xl:py-30 font-hanken bg-gradient-to-b from-[#FFF8E8] to-white">
-            <div className="container mx-auto px-5">
+            <div className="container mx-auto px-4 sm:px-5">
                 <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-10 items-center">
                     <div className="flex flex-col gap-y-5 lg:col-span-5 order-2 lg:order-1">
                         <h2 className="font-dm-serif font-normal text-[32px] md:text-[48px] xl:text-[64px] leading-[115%] xl:leading-[140%] tracking-[-0.01em]">

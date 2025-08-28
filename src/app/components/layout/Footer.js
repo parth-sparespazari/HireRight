@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Footer() {
     return (
         <footer className="pt-20 pb-10 font-hanken bg-[#101316]">
-            <div className="flex flex-col gap-y-15 px-5 w-full mx-auto 2xl:max-w-[1636px]">
+            <div className="flex flex-col gap-y-15 px-4 sm:px-5 w-full mx-auto 2xl:max-w-[1636px]">
                 <Image src="/Footer_logo.svg" alt="Logo" width={986} height={42} sizes="(max-width: 980px) 100vw, 986px" />
                 <hr className="border-t border-[#E8E5E4A3]" />
 

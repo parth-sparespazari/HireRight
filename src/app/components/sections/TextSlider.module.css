@@ -21,33 +21,3 @@
     transform: translateY(0);
   }
 }
-
-
-/* @media (max-width: 1280px) {
-  .slider {
-    animation: slideDownTab 8s infinite;
-  }
-
-  @keyframes slideDownTab {
-    0%, 20% { transform: translateY(0); }
-    25%, 45% { transform: translateY(75px); }
-    50%, 70% { transform: translateY(150px); }
-    75%, 95% { transform: translateY(225px); }
-    100% { transform: translateY(0); }
-  }
-}
-
-
-@media (max-width: 768px) {
-  .slider {
-    animation: slideDownMobile 8s infinite;
-  }
-
-  @keyframes slideDownMobile {
-    0%, 20% { transform: translateY(0); }
-    25%, 45% { transform: translateY(50px); }
-    50%, 70% { transform: translateY(100px); }
-    75%, 95% { transform: translateY(150px); }
-    100% { transform: translateY(0); }
-  }
-} */
