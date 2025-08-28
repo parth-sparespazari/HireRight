@@ -40,7 +40,7 @@ export default function Header() {
     <>
       {/* Header */}
       <header
-        className={`${isFixed ? "fixed top-0 left-0 right-0 bg-white shadow-xl z-30" : "relative"} transition`}
+        className={`${isFixed ? "fixed top-0 left-0 right-0 shadow-xl z-30" : "relative"} transition ${(pathname === '/') ? "bg-white" : "bg-[#F5EFE3]"}`}
       >
         <div className="px-4 sm:px-5 py-4 sm:py-5 w-full mx-auto 2xl:max-w-[1636px] flex items-center justify-between transition-all duration-300 z-50">
           {/* Logo */}
