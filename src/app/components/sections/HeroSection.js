@@ -20,16 +20,16 @@ export default function HeroSection() {
                 </div>
                 <div className="flex flex-row items-center gap-5 mt-15">
                     <a href="">
-                        <img src="/icons/Bluesky-vector.svg" alt="Bluesky" />
+                        <Image src="/icons/Bluesky-vector.svg" alt="Bluesky" width={24} height={24} />
                     </a>
                     <a href="">
-                        <img src="/icons/Github-vector.svg" alt="Github" />
+                        <Image src="/icons/Github-vector.svg" alt="Github" width={24} height={24} />
                     </a>
                     <a href="">
-                        <img src="/icons/Inst-vector.svg" alt="Instagram" />
+                        <Image src="/icons/Inst-vector.svg" alt="Instagram" width={24} height={24} />
                     </a>
                     <a href="">
-                        <img src="/icons/Twitter-vector.svg" alt="LinkedIn" />
+                        <Image src="/icons/Twitter-vector.svg" alt="LinkedIn" width={24} height={24} />
                     </a>
                 </div>
                 <Image

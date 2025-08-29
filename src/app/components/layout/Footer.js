@@ -24,16 +24,16 @@ export default function Footer() {
                     </div>
                     <div className="flex flex-row items-start gap-2 w-full md:w-auto">
                         <a href="">
-                            <img src="/icons/Bluesky-vector-ft.svg" alt="Bluesky" />
+                            <Image src="/icons/Bluesky-vector-ft.svg" alt="Bluesky" width={24} height={24} />
                         </a>
                         <a href="">
-                            <img src="/icons/Github-vector-ft.svg" alt="Github" />
+                            <Image src="/icons/Github-vector-ft.svg" alt="Github" width={24} height={24} />
                         </a>
                         <a href="">
-                            <img src="/icons/Inst-vector-ft.svg" alt="Instagram" />
+                            <Image src="/icons/Inst-vector-ft.svg" alt="Instagram" width={24} height={24} />
                         </a>
                         <a href="">
-                            <img src="/icons/Twitter-vector-ft.svg" alt="LinkedIn" />
+                            <Image src="/icons/Twitter-vector-ft.svg" alt="LinkedIn" width={24} height={24} />
                         </a>
                     </div>
                 </div>
